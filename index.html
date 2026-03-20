@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedo Elegance | Modern Ethnic Wear</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Marquee Announcement -->
+    <div class="top-marquee">
+        <div class="marquee-content">
+            <span>GET 15% OFF YOUR FIRST ORDER WITH CODE: ELEGANCE15</span>
+            <span>&bull;</span>
+            <span>FREE EXPRESS SHIPPING ON ALL INTERNATIONAL ORDERS</span>
+            <span>&bull;</span>
+            <span>NEW FESTIVE DROPS EVERY WEEK</span>
+            <span>&bull;</span>
+            <span>GET 15% OFF YOUR FIRST ORDER WITH CODE: ELEGANCE15</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="navbar" id="navbar">
+        <button class="menu-btn" aria-label="Menu" id="menu-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <div class="logo">SPEEDO</div>
+        <nav class="nav-links">
+            <a href="#new-arrivals">New Arrivals</a>
+            <a href="#collections">Collections</a>
+            <a href="#bestsellers">Bestsellers</a>
+        </nav>
+        <div class="nav-actions">
+            <!-- Search Icon -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="action-icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <!-- User Icon -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="action-icon"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <!-- Cart Icon -->
+            <div class="cart-icon" id="cart-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="action-icon"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-split">
+            <div class="hero-content fade-up">
+                <div class="subtitle">Spring / Summer 26</div>
+                <h1>Redefine<br><i>Tradition</i></h1>
+                <p>Discover the modern silhouette of Indian ethnic wear. Seductive curves, bold colors, and unapologetic grace.</p>
+                <a href="#collections" class="btn-solid">Shop the Collection</a>
+            </div>
+            <div class="hero-img-container slide-in">
+                <img src="images/hero-saree.png" alt="Modern Saree" class="parallax-img">
+            </div>
+        </section>
+
+        <!-- Category Highlights -->
+        <section class="category-strip">
+            <div class="cat-item fade-up">
+                <img src="images/saree1.png" alt="Sarees">
+                <div class="cat-overlay"><h3>Sarees</h3></div>
+            </div>
+            <div class="cat-item fade-up" style="transition-delay: 0.1s">
+                <img src="images/saree2.png" alt="Lehengas">
+                <div class="cat-overlay"><h3>Lehengas</h3></div>
+            </div>
+            <div class="cat-item fade-up" style="transition-delay: 0.2s">
+                <img src="images/saree3.png" alt="Pre-draped">
+                <div class="cat-overlay"><h3>Pre-Draped</h3></div>
+            </div>
+        </section>
+
+        <!-- Trending Collection -->
+        <section id="collections" class="section-padding">
+            <div class="section-header fade-up">
+                <h2>Trending <i>Now</i></h2>
+                <a href="#" class="link-view-all">View All</a>
+            </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card fade-up">
+                    <div class="img-wrapper">
+                        <img src="images/saree1.png" alt="Crimson Allure">
+                        <div class="badges"><span class="badge-hot">HOT</span></div>
+                        <div class="action-overlay">
+                            <button class="btn-quickview" title="Quick View">Quick View</button>
+                            <button class="btn-add-cart" data-id="1" data-name="Crimson Allure Saree" data-price="120" data-img="images/saree1.png">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Crimson Allure Saree</h3>
+                        <p class="price">$120.00</p>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card fade-up" style="transition-delay: 0.1s">
+                    <div class="img-wrapper">
+                        <img src="images/saree2.png" alt="Midnight Jade">
+                        <div class="action-overlay">
+                            <button class="btn-quickview" title="Quick View">Quick View</button>
+                            <button class="btn-add-cart" data-id="2" data-name="Midnight Jade Sequins" data-price="150" data-img="images/saree2.png">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Midnight Jade Sequins</h3>
+                        <p class="price">$150.00</p>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card fade-up" style="transition-delay: 0.2s">
+                    <div class="img-wrapper">
+                        <img src="images/saree3.png" alt="Ivory Gold">
+                        <div class="badges"><span class="badge-new">NEW</span></div>
+                        <div class="action-overlay">
+                            <button class="btn-quickview" title="Quick View">Quick View</button>
+                            <button class="btn-add-cart" data-id="3" data-name="Ivory Gold Drape" data-price="180" data-img="images/saree3.png">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Ivory Gold Drape</h3>
+                        <p class="price">$180.00</p>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card fade-up" style="transition-delay: 0.3s">
+                    <div class="img-wrapper">
+                        <img src="images/saree4.png" alt="Sapphire Dreams">
+                        <div class="action-overlay">
+                            <button class="btn-quickview" title="Quick View">Quick View</button>
+                            <button class="btn-add-cart" data-id="4" data-name="Sapphire Dreams Saree" data-price="135" data-img="images/saree4.png">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sapphire Dreams Saree</h3>
+                        <p class="price">$135.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Full Width Banner -->
+        <section class="promo-banner">
+            <div class="promo-content fade-up">
+                <h2>The <i>Seduction</i> Edit</h2>
+                <p>Designed to accentuate. Tailored to perfection. Own the room in our newest arrivals.</p>
+                <a href="#collections" class="btn-outline">Explore Edit</a>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter-section section-padding">
+            <div class="newsletter-wrapper fade-up">
+                <h2>Join the <i>Club</i></h2>
+                <p>Subscribe for exclusive drops, secret sales, and 10% off your first order.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn-solid">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="modern-footer">
+        <div class="footer-grid">
+            <div class="footer-col brand-col">
+                <h2 class="logo">SPEEDO</h2>
+                <p>Redefining traditional ethnic wear for the modern, confident woman.</p>
+                <div class="socials">
+                    <a href="#">Fb</a>
+                    <a href="#">Ig</a>
+                    <a href="#">Tw</a>
+                    <a href="#">Pt</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <a href="#">New Arrivals</a>
+                <a href="#">Sarees</a>
+                <a href="#">Lehengas</a>
+                <a href="#">Pre-Draped</a>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <a href="#">Contact Us</a>
+                <a href="#">Shipping Details</a>
+                <a href="#">Returns & Exchanges</a>
+                <a href="#">Size Guide</a>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Refund Policy</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Speedo Sarees. All Rights Reserved.</p>
+            <div class="payment-icons">
+                <span>Visa</span> | <span>Mastercard</span> | <span>Amex</span> | <span>Apple Pay</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Cart</h3>
+            <button class="close-btn" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Items injected via JS -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Subtotal</span>
+                <span id="cart-total-price" style="font-family: var(--font-heading); font-size: 1.4rem;">$0.00</span>
+            </div>
+            <p class="tax-note">Taxes and shipping calculated at checkout.</p>
+            <button class="btn-solid" id="checkout-btn" style="width: 100%;">Checkout</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <!-- Quick View Modal -->
+    <div class="modal" id="quickview-modal">
+        <div class="modal-content">
+            <button class="close-btn modal-close" id="close-quickview">&times;</button>
+            <div class="modal-grid">
+                <div class="modal-img">
+                    <img src="" alt="Product" id="qv-img">
+                </div>
+                <div class="modal-info">
+                    <h2 id="qv-title">Product Name</h2>
+                    <p class="qv-price" id="qv-price">$0.00</p>
+                    <p class="qv-desc">Crafted from premium fabric, this piece is designed to drape effortlessly. Pair it with minimalistic jewelry for a striking look.</p>
+                    
+                    <div class="qv-selectors">
+                        <div class="selector-group">
+                            <label>Blouse Customization</label>
+                            <select id="qv-blouse" class="custom-select">
+                                <option value="Unstitched" data-price="0">Unstitched Fabric</option>
+                                <option value="Stitched" data-price="25">Custom Tailored (+$25.00)</option>
+                            </select>
+                        </div>
+                        <div class="selector-group">
+                            <label>Fall & Finishing</label>
+                            <select id="qv-fall" class="custom-select">
+                                <option value="Yes" data-price="10">Add Fall & Pico (+$10.00)</option>
+                                <option value="No" data-price="0">No, I will handle it</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button class="btn-solid" id="qv-add-cart" style="width: 100%; margin-top:1.5rem;">Add to Cart</button>
+                    <p class="shipping-note">Free standard shipping on orders over $200.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment/Checkout Modal -->
+    <div class="modal" id="payment-modal">
+        <div class="modal-content checkout-content">
+            <button class="close-btn modal-close" id="close-payment">&times;</button>
+            <div class="checkout-header">
+                <h2>Secure Checkout</h2>
+            </div>
+            <div class="checkout-body" id="payment-body">
+                <div class="checkout-section">
+                    <h4>Contact Information</h4>
+                    <input type="email" placeholder="Email Address" class="form-input" required>
+                </div>
+                <div class="checkout-section">
+                    <h4>Shipping Address</h4>
+                    <div class="form-row">
+                        <input type="text" placeholder="First Name" class="form-input" required>
+                        <input type="text" placeholder="Last Name" class="form-input" required>
+                    </div>
+                    <input type="text" placeholder="Address" class="form-input" required>
+                    <div class="form-row">
+                        <input type="text" placeholder="City" class="form-input" required>
+                        <input type="text" placeholder="Postal Code" class="form-input" required>
+                    </div>
+                </div>
+                <div class="checkout-section">
+                    <h4>Payment</h4>
+                    <div class="payment-tabs">
+                        <button class="pay-tab active">Credit Card</button>
+                        <button class="pay-tab">PayPal</button>
+                    </div>
+                    <div class="card-element">
+                        <input type="text" placeholder="Card Number" class="form-input">
+                        <div class="form-row">
+                            <input type="text" placeholder="Expiration Date (MM/YY)" class="form-input">
+                            <input type="text" placeholder="Security Code" class="form-input">
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-solid" id="process-pay-btn" style="width: 100%; margin-top:1rem;">Complete Order</button>
+            </div>
+            
+            <div class="payment-success" id="payment-success" style="display:none; text-align:center; padding: 4rem 2rem;">
+                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom:1.5rem;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <h2 style="margin-bottom:1rem; font-family: var(--font-heading);">Order Confirmed!</h2>
+                <p style="color:#666; margin-bottom:2rem;">Thank you for your purchase. You will receive an email confirmation shortly.</p>
+                <button class="btn-solid" id="continue-shopping">Continue Shopping</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
